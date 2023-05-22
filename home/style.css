@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    word-spacing: normal !important;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.pppost{
+  width: 43vw;
+}
+.bmain{
+  display: flex;
+    justify-content: space-around;
+}
+.headcentercont{
+  justify-content: space-around;
+  border: 1px solid #ccc;
+    /* padding: 23px; */
+    /* margin-bottom: 20px; */
+    border-radius: 13px;
+    width: 100%;
+}
+.headcentercont img{
+  width: 3vw;
+  border-radius: 23px;
+}
+.fpost{
+  
+  width: 3vw;
+  height: 3vw;
+  border-radius: 23px;
+  padding: 5px;
+  
+}
+.divpost{
+  display: flex;
+  /* padding: 3px 0 23px 2px; */
+}
+.post{
+  border-radius: 13px;
+}
+.start_new_post button{
+  width: 32vw;
+  height: 11vh;
+  border-radius:15vw;
+  width: 32vw;
+  height: 3vw;
+  color: black;
+  background: white;
+  border-color: rgba(0,0,0,0.6);
+}
+.headcentercont{
+  display: flex;
+    align-items: center;
+    padding: 4vh 0;
+}
+.mhead{
+    font-size: 2.3rem;
+    line-height: 1.2;
+
+    font-family: "DM Serif Display";
+font-weight: 400 !important;
+letter-spacing: normal !important;
+word-spacing: normal !important;
+
+margin-bottom: .5rem !important;
+
+}
+
+
+.mword{
+    margin: 18px 37vw;
+
+}
+
+@media (min-width: 992px){
+
+.mhead {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+
+}
+
+.wrapper {
+    height: 35vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 42ch;
+    animation: typing 4s steps(40), blink 3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+@keyframes typing {
+	to { width: 0 }
+}
+@keyframes caret {
+	50% { color: transparent }
+}
+
+
+.cac{
+  background: cadetblue;
+}
+
+.conteners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4vw;
+
+}
+button a{
+  text-decoration: navajowhite;
+background: bottom;
+color: white;
+}
+.cac2{
+  background:  #b37ef5;
+}
+.cac3{
+  background: #f5b37e;
+}
+.cac4{
+  background: #7ef5b3;
+}
+.conteners div{
+    
+    
+    padding: 3vw 0;
+    border-radius: 14px;
+    width: 20vw;
+    justify-content: center;
+display: flex;
+flex-wrap: wrap;
+font-size: 2vw;
+}
+
+
+
+footer {
+	background-color: #f2f2f2;
+	padding: 50px 0;
+}
+
+footer h3 {
+	color: #666;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	margin: 0 0 15px 0;
+}
+
+footer p {
+	color: #666;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li {
+	border-bottom: 1px solid #ccc;
+}
+
+footer ul li a {
+	color: #666;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+	display: block;
+}
+
+footer ul li a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.row {
+	margin: 0 -15px;
+}
+
+.col-md-3,
+.col-md-6 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-md-3 {
+	float: left;
+	width: 25%;
+}
+
+.col-md-6 {
+	float: left;
+	width: 50%;
+}
+
+
+
+.post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pbuttons button {
+  margin-right: 10px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.commentForm input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.commentForm button[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+}
+
+
+/* like */
+body{background: #eee}.date{font-size: 11px}.comment-text{font-size: 12px}.fs-12{font-size: 12px}.shadow-none{box-shadow: none}.name{color: #007bff}.cursor:hover{color: blue}.cursor{cursor: pointer}.textarea{resize: none}
